@@ -16,12 +16,12 @@ public class Aggresub {
 	}
 	void display() {
 		System.out.println("The rollno and mark of student is: " +rollno +" " +mark);
-		System.out.println("The name and age of student is : " +ref.name +" " +ref.age);
+		System.out.println("The name and age of student is : " +ref.name +" " +ref.age +" " +ref.city);
 	}
 
 	public static void main(String[] args) {
 		
-		Aggremain main = new Aggremain("ALICE", 30);
+		Aggremain main = new Aggremain("ALICE", 30, "Trivandrum");
 		Aggresub sub = new Aggresub(30, 95, main);
 		sub.display();
 		// TODO Auto-generated method stub
