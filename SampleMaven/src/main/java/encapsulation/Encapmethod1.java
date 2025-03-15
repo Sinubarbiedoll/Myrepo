@@ -8,7 +8,7 @@ public class Encapmethod1 {
 		encap.setAge(31);
 		encap.setName("SINU");
 		
-		System.out.println("The age anf Name of student is : " +encap.getAge() + " " +encap.getName());
+		System.out.println("The age and Name of student is : " +encap.getAge() + " " +encap.getName());
 		// TODO Auto-generated method stub
 
 	}
