@@ -13,7 +13,7 @@ public class HdfcScanner implements RbiScanner {
 		int duration = sc.nextInt();
 		
 		RbiScanner ref = new HdfcScanner();
-		ref.recurringDeposit(amount,  duration);
+		ref.recurringDeposit(amount, duration);
 		sc.close();
 		// TODO Auto-generated method stub
 
