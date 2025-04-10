@@ -14,7 +14,7 @@ public class Polymethod1 extends Polymethod {
 		
 		
 		Polymethod1 poly = new Polymethod1();
-		poly.method(60, 70);
+		poly.method(60, 80);
 		poly.method1(50, 50);
 	
 		

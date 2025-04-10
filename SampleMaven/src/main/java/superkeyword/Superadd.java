@@ -4,7 +4,7 @@ public class Superadd extends Superclass {
 	public void checkdivisibility()
 	{
 		
-		int sum = super.add(25, 30);
+		int sum = super.add(30, 30);
 		System.out.println("The sum is : " +sum );
 		if(sum%10==0)
 		{
